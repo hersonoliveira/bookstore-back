@@ -82,4 +82,40 @@ public class Book {
     public Language getLanguage() {
         return language;
     }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setUnitCost(Float unitCost) {
+        this.unitCost = unitCost;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public void setPublicationDate(Date publicationDate) {
+        this.publicationDate = publicationDate;
+    }
+
+    public void setNbOfPages(Integer nbOfPages) {
+        this.nbOfPages = nbOfPages;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public void setLanguage(Language language) {
+        this.language = language;
+    }
 }
